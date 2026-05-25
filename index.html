@@ -2,13 +2,19 @@
 <html lang="zh">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#0d0a0b" />
+    <meta name="description" content="血染钟楼 - 游戏应用" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="血染钟楼" />
+    <meta property="og:title" content="血染钟楼" />
+    <meta property="og:description" content="血染钟楼 - 游戏应用" />
     <title>血染钟楼</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏰</text></svg>" />
+    <link rel="preload" as="script" type="module" href="/src/main.jsx" />
     <style>
       * { box-sizing: border-box; margin: 0; padding: 0; }
       body { background: #0d0a0b; overscroll-behavior: none; }
@@ -16,6 +22,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>此应用需要JavaScript支持</noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
